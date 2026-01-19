@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "441881136654",
+    "project_id": "coursdci",
+    "storage_bucket": "coursdci.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441881136654:android:fec87f2cc4d212ed60f65f",
+        "android_client_info": {
+          "package_name": "com.example.tes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL4LukpQDt6PG-NTAlY48B5uJnLjgWHzE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
