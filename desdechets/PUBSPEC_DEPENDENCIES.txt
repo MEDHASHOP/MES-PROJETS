@@ -1,0 +1,111 @@
+/// Fichier pubspec.yaml - Configuration des dépendances
+/// 
+/// Copier le contenu ci-dessous dans votre fichier pubspec.yaml
+/// et exécuter: flutter pub get
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.2
+
+  # Base de données locale
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  path_provider: ^2.1.0
+
+  # Firebase
+  firebase_core: ^2.24.0
+  cloud_firestore: ^4.14.0
+  firebase_auth: ^4.17.0
+  firebase_storage: ^11.5.0
+
+  # Gestion d'état
+  riverpod: ^2.4.0
+  flutter_riverpod: ^2.4.0
+
+  # Localisation et internationalisation
+  intl: ^0.19.0
+  get_it: ^7.6.0
+
+  # Géolocalisation et cartes
+  geolocator: ^9.0.2
+  google_maps_flutter: ^2.5.0
+
+  # Notifications
+  flutter_local_notifications: ^14.1.1
+
+  # Networking
+  http: ^1.1.0
+  dio: ^5.3.1
+
+  # JSON parsing
+  json_serializable: ^6.7.1
+
+  # Images et média
+  image_picker: ^1.0.4
+  video_player: ^2.8.0
+  cached_network_image: ^3.3.1
+
+  # Date et heure
+  intl: ^0.19.0
+
+  # Vibration
+  vibration: ^1.8.4
+
+  # Permissions
+  permission_handler: ^11.4.4
+
+  # Logging
+  logger: ^2.0.1
+
+  # Device info
+  device_info_plus: ^9.1.1
+
+  # Stockage sécurisé
+  flutter_secure_storage: ^9.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+  # JSON serialization generator
+  json_serializable: ^6.7.1
+  build_runner: ^2.4.6
+
+  # Tests
+  mocktail: ^1.0.0
+  bloc_test: ^9.1.0
+
+  # Code generation
+  riverpod_generator: ^2.3.7
+  build_runner: ^2.4.6
+
+flutter:
+  uses-material-design: true
+
+  # Assets
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+
+  # Fonts (optionnel)
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/splash.png
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"

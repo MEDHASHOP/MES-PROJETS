@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "871546130573",
+    "firebase_url": "https://projet-51e98-default-rtdb.firebaseio.com",
+    "project_id": "projet-51e98",
+    "storage_bucket": "projet-51e98.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871546130573:android:92e4f85a5c7232f5f092c4",
+        "android_client_info": {
+          "package_name": "dechets.des"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXmuoNXhoEg5Xn03iuOJbqDAtRi6Kbehs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
