@@ -1,0 +1,9 @@
+export 'splash_screen.dart';
+export 'home_screen.dart';
+export 'calendar_screen.dart';
+export 'map_screen.dart';
+export 'tips_screen.dart';
+export 'profile_screen.dart';
+export 'community_screen.dart';
+export 'recycling_tips_screen.dart';
+export 'collection_points_screen.dart';
